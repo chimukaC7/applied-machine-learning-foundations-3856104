@@ -1,0 +1,17 @@
+Linear regression
+Selecting transcript lines in this section will navigate to timestamp in the video
+In the previous video, we saw how we could make a dummy model. Now we're going to use a more tried and true model, which is linear regression. And we'll see that this is actually really easy to stick in. All we have to do is create an instance of linear regression and stick it into our pipeline, and everything else stays the same. You can see that we're going to call fit and then we're going to call score. Let's run this, the score for this. Remember that's a number called the coefficient of determination or the R2 score is 0.8. Remember this goes from zero to one. This tells us that 80 percent of the variance in the predictions is explained by the features or the columns that are coming in here. So this is a better model than our dummy model. What is linear regression doing? It's basically taking our features and putting them into n-dimensional space, and then fitting a line through those features that predicts the price. If you remember from your junior high or high school math, you might remember a formula of the form y = mx + b. This linear regression is finding values for m and b and making a model from that. Again, if you want to call predict, you can do that just like you did up here. I can come up here and copy this and we can come down here. And this is now my lr_pipe and I can just replace this with lr and run this. And here's my predictions. You can see that this is now giving us predictions that apparently are more fine-grained than our other ones. In the next video, we'll see how to make even more complicated and better models.
+
+
+The “Linear regression” video provides a foundational understanding of one of the most fundamental models in machine learning. Here are the key takeaways:
+
+Linear Regression Basics: Linear regression is a model used to predict a continuous outcome variable (y) based on one or more predictor variables (x). It works by fitting a linear equation (like y = mx + b) to the observed data. The equation represents a line that best approximates the relationship between the input features and the target variable.
+
+Implementation in a Pipeline: The video demonstrates how linear regression can be easily integrated into a machine learning pipeline. By creating an instance of linear regression and adding it to the pipeline, you can streamline the process of fitting the model to your data and making predictions.
+
+Model Evaluation with R² Score: The effectiveness of the linear regression model is evaluated using the coefficient of determination, or R² score. This score ranges from 0 to 1 and indicates how well the variance in the predictions is explained by the input features. In the example provided, an R² score of 0.8 suggests that 80% of the variance in the target variable is accounted for by the model, indicating a relatively strong fit to the data.
+
+
+Understanding these concepts is crucial as you pivot towards a Machine Learning Engineer role, especially when dealing with predictive modeling and data analysis. Linear regression serves as a stepping stone to more complex models, providing a clear example of how machine learning algorithms can be applied to real-world data.
+
+

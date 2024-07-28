@@ -17,3 +17,4 @@ Practical application: For you, transitioning to a Machine Learning Engineer rol
 Remember, the journey in machine learning is iterative. Starting simple helps you understand the impact of each change and improvement you make along the way.
 
 
+Dummy models in scikit-learn are used as simple baselines. They do not learn from the data but make predictions based on simple rules. This allows for the evaluation of whether more complex models are performing better than basic heuristics.
