@@ -1,0 +1,17 @@
+End-to-end notebook
+Selecting transcript lines in this section will navigate to timestamp in the video
+Okay. We're almost at the end. And before we talk about model deployment, I want to show one thing that I see that's very common with notebooks, and that is this tendency for things to get strewn all about throughout the notebook. And when people come back to the notebook, it can be a challenge to get your notebook back and do a state where things work. People have to do a lot of guesswork clicking on this cell and then that cell, and making sure that they run them in the right order. To get around that, what I like to do is I like to put all of my code at the very top of the notebook. I can put it in one cell, or I can put it in a couple of cells, but I want it in a sequence at the top so when I come back to my notebook, it will just work. Now this is not at the top of my notebook, but maybe I should put it up there. But what I'm going to do is I'm going to restart my notebook here, and let's just test this and see if it works. I recommend doing this, especially if you're collaborating with others, even for yourself. It's going to make your life a lot easier when you come back to these notebooks. Okay. So this is my code. And if we look at it, we've got our imports up there. We've got our tweak code that cleans up the data. We've got our pipeline code down here, and at the bottom, we're loading our data and then we're making a linear regression model. And we've got a pipeline for a linear regression model. Let's give this a try and see if it works. So I'm going to come over here and run this. And we'll go to the bottom here to see what the output is. And it looks like it works. Lo and behold, there is our result there, 0.80. So this video might seem short, there's not a lot of code here, but I think this is really important. When you start working with other people or even when you come back to your notebook the next day, or the next week or the next month, if you spend a little bit of time organizing it, it's going to make your life a lot easier.
+
+
+The “End-to-end notebook” video emphasizes several key points for managing and organizing code in machine learning projects using notebooks:
+
+Organize Code Efficiently: It's recommended to place all of your code at the top of the notebook in a sequence. This organization helps ensure that when you or others return to the notebook, it can be run without the need to guess the order of cell execution.
+
+Collaboration and Clarity: This approach not only benefits individual work but is particularly helpful when collaborating with others. It minimizes confusion and makes the notebook more user-friendly for anyone who might work on it later.
+
+Practical Demonstration: The video provides a practical demonstration of restarting a notebook and running the organized code to verify its functionality, showcasing an effective practice for machine learning projects.
+
+
+These takeaways are crucial for anyone looking to streamline their machine learning workflows, especially as you transition into a Machine Learning Engineer role.
+
+
